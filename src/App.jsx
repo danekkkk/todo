@@ -33,7 +33,7 @@ function App() {
                       text: todo.text,
                       isDone: false,
                       priority: todo.priority,
-                      id: todosList.length + 1,
+                      id: Math.random(100000),
                     },
                     ...prevValue,
                   ];
