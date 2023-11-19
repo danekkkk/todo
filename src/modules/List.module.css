@@ -1,0 +1,46 @@
+.todo {
+  background-color: #fcfcfc;
+  border: 2px solid #e8e8e8;
+  width: 1017px;
+  height: 57px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.todo div {
+  padding: 17px 28px;
+  max-width: 80%;
+  overflow: hidden;
+}
+
+.todo div input {
+  margin-right: 20px;
+  accent-color: #000000;
+}
+
+.isDone {
+  text-decoration: line-through;
+}
+
+.exclamation {
+  padding: 17px 18px;
+}
+
+.delete_Button {
+  width: 60px;
+  height: 57px;
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1110px) {
+  .todo {
+    width: 100%;
+  }
+}

@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_heading {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.secondary_heading {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.add_Button {
+  width: 186px;
+  height: 46px;
+  font-size: 20px;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.45s;
+}
+
+.add_Button:hover {
+  background-color: var(--primary-hover);
+}
+
+.add_Icon {
+  margin-right: 10px;
+  transform: translateY(2px);
+}
+
+@media screen and (max-width: 600px) {
+  .add_Button {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    width: 80%;
+    transform: translateX(-50%);
+  }
+}
